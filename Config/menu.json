@@ -1,0 +1,15 @@
+{
+	"button":[
+		{"type":"click","name":"最新分享","key":"xiaofanfan_new_share"},
+		{"name":"分享","sub_button":[
+			{"type":"view","name":"极客分享","url":"http:\/\/geekshare.sinaapp.com\/"},
+			{"type":"view","name":"其他","url":"http:\/\/geekshare.sinaapp.com\/"},
+			{"type":"click","name":"给我们点个赞","key":"xiaofanfan_praise_us"}
+		]},
+		{"name":"极客","sub_button":[
+			{"type":"view","name":"极客事件","url":"http:\/\/geekshare.sinaapp.com\/"},
+			{"type":"view","name":"终极极客","url":"http:\/\/geekshare.sinaapp.com\/"},
+			{"type":"click","name":"极客排名","key":"xiaofanfan_geek_list"}
+		]}
+	]
+}

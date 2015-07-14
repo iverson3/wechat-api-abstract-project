@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>上传素材</title>
+</head>
+<body>
+	<form action="http://www.wechat.com/index.php" method="post" enctype="multipart/form-data">
+		<input type="hidden" name="special_action" value="do_upload">
+		请选择文件:<input type="file" name="files"><br>
+		素材类型:<select name="filetype">
+			<option value="1">临时素材</option>
+			<option value="2">永久素材</option>
+		</select><br>
+		<input type="submit" value="上 传" onclick="upload()">
+	</form>
+
+	<script type="text/javascript">
+		function upload(){
+
+		}
+	</script>
+</body>
+</html>
